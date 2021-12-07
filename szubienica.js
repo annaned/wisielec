@@ -78,7 +78,7 @@ function sprawdz(nr){
         var element = "lit"+nr;
         document.getElementById(element).className = "nietrafiona_literka";
         document.getElementById(element).setAttribute("onclick",";")
-        document.getElementById("szubienica").innerHTML="<img src=\"img/s"+b+".jpg\" alt=\"\"/>";
+        document.getElementById("szubienica").innerHTML="<img src=\"s"+b+".jpg\" alt=\"\"/>";
         if (b==9){
             document.getElementById("alfabet").innerHTML="<p class=\"buttonik\" onClick=\"window.location.reload();\">SPRÓBUJ JESZCZE RAZ<p>";
             document.getElementById("szubienica").innerHTML="<p>GAMEOVER</p>";
