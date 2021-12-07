@@ -1,0 +1,102 @@
+body{
+    background-color: #000000;
+    color: #bfbfbf;
+    font-size: 20px;
+    font-family:monospace;
+}
+
+#pojemnik {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#plansza {
+    width: calc(100% - 6px);
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 48px;
+    min-height: 60px;
+    letter-spacing: 7px;
+}
+
+#szubienica {
+    float: left;
+    width: calc(50% - 9px);
+    margin: 3px;
+    text-align: center;
+    min-height: 280px;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+#szubienica img {
+    max-height: 270px;
+}
+
+#alfabet {
+    float: right;
+    width: calc(50% - 9px);
+    margin: 3px;
+    text-align: center;
+    min-height: 280px;
+}
+
+.litera {
+    width: calc(14% - 20px);
+    margin: 5px;
+    text-align: center;
+    padding: 2px;
+    border: 3px solid #bfbfbf;
+    border-radius: 15px;
+    float: left;
+    cursor: pointer;
+}
+
+.litera:hover {
+    background-color: #383838;
+    border: 3px solid #ffffff;
+}
+
+
+.trafiona_literka {
+    width: calc(14% - 20px);
+    margin: 5px;
+    text-align: center;
+    padding: 2px;
+    border: 3px solid #4d8f29;
+    border-radius: 15px;
+    float: left;
+    cursor: pointer;
+    background-color: #323630;
+    color: #4d8f29;
+    cursor: default;
+}
+
+.nietrafiona_literka {
+    width: calc(14% - 20px);
+    margin: 5px;
+    text-align: center;
+    padding: 2px;
+    border: 3px solid #820d0d;
+    border-radius: 15px;
+    float: left;
+    cursor: pointer;
+    background-color: #323630;
+    color: #820d0d;
+    cursor: default;
+}
+
+.buttonik {
+    cursor: pointer;
+    margin: 15px;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid #bfbfbf;
+    border-radius: 15px;
+    width: 50%;
+    transform: translate(50%, 50%);
+}
